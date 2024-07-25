@@ -112,7 +112,7 @@ python script/contracts_downloader.py --n-threads 2 --shard 5 --addresses contra
 ```
 This will use a maximum of two concurrent threads for downloading. If number of API keys is > `n-threads` each new shard/thread will pick the next key from the list.
 
-### Convert the files in ./output to .sol 
+## Convert the files in ./output to .sol 
 
 This Program will convert the json file to sol files.
 
@@ -122,13 +122,13 @@ Change the path in convert_json_to_sol.py file to ./output or the the place wher
 python3 convert_json_to_sol.py 
 ```
 
-### Fix the contract solidity compiler  version
+## Fix the contract solidity compiler  version
 
 ```bash
 python3 update_pragma.py
 ```
 
-### Remove all the incosistent data 
+## Remove all the incosistent data 
 
 This Program removes all the incosistent data of the contracts for smooth compilation of all the tools you will use.
 
