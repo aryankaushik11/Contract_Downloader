@@ -105,3 +105,5 @@ This will use a maximum of two concurrent threads for downloading. If number of 
 Copyright © [André Storhaug](https://github.com/andstor)
 
 smart-contract-downloader is licensed under the [MIT License](https://github.com/andstor/smart-contract-downloader/blob/main/LICENSE).  
+# Contract_Downloader
+A tool to download latest smart contract from the etherscan.io api in .sol form
